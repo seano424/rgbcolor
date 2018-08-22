@@ -1,0 +1,73 @@
+body {
+  background-color: snow;
+  margin: 0;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+}
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 50%;
+  transition: background 0.6s;
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  margin: 0;
+  outline: none;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+#stripe {
+  background: aquamarine;
+  height: 30px;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  background-color:steelblue;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+
+#colorDisplay {
+  font-size: 2em;
+}
